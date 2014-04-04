@@ -1,4 +1,4 @@
-#readymade @font-face {
+@font-face {
     font-family: 'limelightregular';
     src: url('limelight-webfont.eot');
     src: url('limelight-webfont.eot?#iefix') format('embedded-opentype'),
@@ -12,5 +12,33 @@
 #readymade .readymade-site-header .readymade-project-title {
 	font-size: 108px;
 	font-family: 'limelightregular', Arial, Helvetica;
+	padding-top: 44px;
 }
 
+#readymade .readymade-home-page {
+	text-shadow: 0 1px 3px #000, 0 1px 5px #000;
+	color: #FFFF00;
+}
+
+#readymade .readymade-home-page .readymade-call-to-action {
+	background: rgba(255,255,255,0.5);
+	-webkit-border-radius: 0.25em;
+	border-radius: 5.25em;
+	box-shadow: 0 5px 5px -5px;
+	color: rgba(0,0,0,.7);
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 5px;
+	padding: 0.7em 2.5em;
+	text-decoration: none;
+	text-shadow: none;
+	font-family: Arial;
+	text-transform: uppercase;
+}
+
+.readymade-home-page .readymade-footer {
+	margin-top: 2em;
+	text-align: center;
+}
